@@ -1,9 +1,9 @@
 # svgスプライト
 
 ## 使い方
-1. /resource/svgにsvgファイルを入れる
+1. /resource/imgにsvgファイルを入れる
 2. gulp svg-spriteを行うと、public/imgにsprite.svgが作られる
-3. 使う時は以下のように利用する
+3. 使う時は以下のように利用する(id名はsvgの元ファイルのファイル名でつけられる)
 
 ```
 <svg class="facebook" role="img">

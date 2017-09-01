@@ -7,7 +7,7 @@ var dist = './public';
 
 // svgスプライト
 gulp.task('svg-sprite', function () {
-  gulp.src(baseDir + '/svg/**/*.svg')
+  gulp.src(baseDir + '/img/**/*.svg')
     .pipe(svgSprite({
       // 何で出力するか
       mode: {
