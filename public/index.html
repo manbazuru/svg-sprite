@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <title>svg spriteテスト</title>
+</head>
+<style>
+  .facebook{
+    width: 50px;
+    fill: green;
+  }
+  .twitter{
+    width: 50px;
+  }
+</style>
+<body>
+
+<svg class="facebook" role="img">
+  <title>Facebook</title>
+  <use xlink:href="img/sprite.svg#facebook"></use>
+</svg>
+
+<svg class="twitter" role="img">
+  <title>Twitter</title>
+  <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="img/sprite.svg#twitter"></use>
+</svg>
+
+<script src="js/svg4everybody.js"></script>
+<script>svg4everybody();</script>
+</body>
+</html>
